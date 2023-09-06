@@ -1,0 +1,79 @@
+.shopTitle{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.App{
+    background-color: rgb(219, 212, 212);
+}
+.products{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30vw auto 30vw;
+    place-items: center;
+}
+.white{
+    color: rgb(105, 105, 105);
+}
+.productName{
+font-size: 20px;
+}
+.productPrice{
+font-size: 18px;
+color: rgb(109, 182, 109);
+}
+.big{
+    font-size: 35px;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.product{
+border-radius: 15px;
+width: 300px;
+height: 400px;
+margin: 80px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.product img{
+    width: 380px;
+    height: 400px;
+}
+.product .description{
+text-align: center;
+}
+.product:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.addToCartBttn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+.addToCartBttn:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 991px) {
+   
+    .App{
+        background-color: rgb(202, 41, 41);
+        max-width: fit-content;
+    }
+
+}
