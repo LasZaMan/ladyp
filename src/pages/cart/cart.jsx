@@ -5,7 +5,6 @@ import { CartItem } from './cart-item';
 import {useNavigate } from 'react-router-dom';
 import "../shop/shop.css"
 import "../cart/cart.css"
-import { Navbar } from '../../components/navbar';
 
 
 

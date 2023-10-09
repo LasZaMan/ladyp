@@ -3,11 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .cartItem {
     width: 700px;
-    height: 250px;
+    height: 270px;
     display: flex;
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -17,6 +18,7 @@
 
 .cartItem img {
     width: 200px;
+    border-radius: 10px;
 }
 
 .cartItem .description {
@@ -67,13 +69,12 @@ color: white;
     .cart {
         display: flex;
         max-width: fit-content;
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
     .cartItem {
         max-width: 100vw;
-        height: 100px;
+        height: 180px;
         display: flex;
         align-items: center;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -82,7 +83,8 @@ color: white;
     }
     
     .cartItem img {
-        width: 100px;
+        width: 120px;
+        border-radius: 10px;
     }
     
     .cartItem .description {
@@ -100,11 +102,11 @@ color: white;
     }
     .danger{
         color: red;
-        font-size: 10px;
+        font-size: 20px;
         font-weight: bolder;
     }
     .success{
-        font-size: 10px;
+        font-size: 20px;
         color: goldenrod;
         font-weight: bolder;
     }
@@ -121,12 +123,13 @@ color: white;
     color: white;
     }
     .checkout button {
-        width: 50px;
-        height: 20px;
-        background-color: rgb(19, 19, 19);
+        width: fit-content;
+        height: fit-content;
+        padding: 8px;
+        background-color: rgb(80, 76, 76);
         color: white;
         border: none;
-        border-radius: 8px;
+        border-radius: 5px;
         margin: 10px;
         cursor: pointer;
     }
